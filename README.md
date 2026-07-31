@@ -1,12 +1,10 @@
-<!-- lint disable double-link -->
-
 # Awesome FastStream [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > Asynchronous Python framework for building event-driven services across Kafka, RabbitMQ, NATS, and Redis.
 
 <a href="https://faststream.ag2.ai"><img align="right" width="120" alt="FastStream" src="https://raw.githubusercontent.com/ag2ai/faststream/main/docs/docs/assets/img/logo.svg"></a>
 
-[FastStream](https://github.com/ag2ai/faststream) gives you one API for several message brokers, plus typed messages, dependency injection, testing helpers, and generated AsyncAPI docs. The libraries, integrations, and templates below build on top of it.
+FastStream gives you one API for several message brokers, plus typed messages, dependency injection, testing helpers, and generated AsyncAPI docs. The libraries, integrations, and templates below build on top of it.
 
 ## Contents
 
@@ -62,3 +60,7 @@
 ## Contributing
 
 Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
+
+## Footnotes
+
+Curator disclosure: I maintain the [modern-python](https://github.com/modern-python) entries in this list - modern-di, modern-di-faststream, faststream-outbox, faststream-redis-timers, faststream-concurrent-aiokafka, and lite-bootstrap. I also contribute to microbootstrap and stompman, which are maintained by others.
